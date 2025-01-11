@@ -17,18 +17,30 @@
   font-size: 21.6px;
   font-weight: 600;
   border-radius: 9.6px;
+  cursor: pointer;
 }
 
 .sign-in-btn {
   color: #006a50;
   padding: 18px 36px;
   border: 1px solid #006a50;
+  transition: all 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  color: #ffffff;
+  background-color: #006a50;
 }
 
 .explore-btn {
   padding: 20.4px 40.8px;
   background: #006a50;
   border: none;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  opacity: 0.8;
 }
 
 .section-title {
@@ -148,6 +160,11 @@ main {
   font-size: 19.2px;
   padding: 13.2px 24px;
   border: none;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  opacity: 0.7;
 }
 
 .btn-color-blue {
@@ -292,6 +309,11 @@ main {
   background: #006a50;
   margin-top: 38.4px;
   border: none;
+  transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #028f6c;
 }
 
 /* Donation styles */
@@ -299,6 +321,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 96px;
   margin-bottom: 96px;
 }
 
@@ -336,6 +359,7 @@ main {
   background: #fff;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 19.2px;
+  transition: all 0.3s ease;
 }
 
 .donation-amount:hover {
@@ -362,6 +386,10 @@ input[type="text"] {
   border: 1px solid rgba(14, 14, 14, 0.1);
   background: #006a50;
   padding: 20.4px 40.8px;
+}
+
+.donate-btn:hover {
+  background-color: #0a9b77;
 }
 
 /* Footer styles */
@@ -433,4 +461,9 @@ input[type="text"] {
   cursor: pointer;
   font-weight: 600;
   font-size: 21.6px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0c9673;
 }
