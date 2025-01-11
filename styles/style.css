@@ -60,6 +60,7 @@ main {
   align-items: center;
   padding-bottom: 28.8px;
   padding-top: 28.8px;
+  margin-bottom: 24px;
 }
 
 .logo h3 {
@@ -373,15 +374,84 @@ input[type="text"] {
   gap: 32px;
 }
 
-.footer hr {
+.horizontal-line {
   width: 1122px;
   height: 1px;
   background: rgba(14, 14, 14, 0.1);
+  border: none;
 }
 
 .footer .social-media {
   width: 31.85px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 27.6px;
+  cursor: pointer;
+}
+
+.opinion-container {
+  margin-top: 96px;
+}
+
+.opinion-container table {
+padding: 32px;
+border-radius: 16px;
+background: #FFF;
+width: 100%;
+border-collapse: collapse;
+}
+
+th,td {
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-right: none;
+}
+
+.theader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Newsletter section */
+.newsletter {
+  text-align: center;
+  padding: 96px 120px;
+  border-radius: 28.8px;
+  background: #c6e4d6;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+
+.newsletter p {
+  color: rgba(14, 14, 14, 0.7);
+  margin: 0 auto;
+  margin-top: 19.2px;
+  font-size: 19.2px;
+  line-height: 28.8px;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+  margin: 28.8px 0;
+}
+
+.text-box {
+  border: none;
+  outline: none;
+  padding: 21.6px 48px;
+  border-radius: 9.6px 0px 0px 9.6px;
+  width: 600px;
+  font-size: 19.2px;
+}
+.btn {
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 20.4px 40.8px;
+  border-radius: 0px 9.6px 9.6px 0px;
+  background: #006a50;
   cursor: pointer;
 }
