@@ -163,21 +163,21 @@ main {
 }
 
 .vision-card-blue {
-  border-radius: 16px;
+  border-radius: 19.2px;
   border: 0px solid #5490f5;
   background: rgba(84, 144, 245, 0.2);
 }
 
 .vision-card-green {
-  border-radius: 16px;
+  border-radius: 19.2px;
   border: 0px solid #09a15c;
   background: #c6e4d6;
 }
 
-.vision-card-blue {
-  border-radius: 16px;
-  border: 0px solid #5490f5;
-  background: rgba(84, 144, 245, 0.2);
+.vision-card-yellow {
+  border-radius: 19.2px;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
 }
 
 .vision-card-container {
@@ -255,7 +255,7 @@ main {
   gap: 38.4px;
   border-radius: 28.8px;
   background: #fff;
-  margin-bottom: 96px;
+  margin-bottom: 28.8px;
 }
 
 .news-img img {
@@ -294,6 +294,7 @@ main {
   border: none;
 }
 
+/* Donation styles */
 .donation-container {
   display: flex;
   flex-direction: column;
@@ -374,7 +375,7 @@ input[type="text"] {
   gap: 32px;
 }
 
-.horizontal-line {
+.footer hr {
   width: 1122px;
   height: 1px;
   background: rgba(14, 14, 14, 0.1);
@@ -388,30 +389,6 @@ input[type="text"] {
   align-items: center;
   gap: 27.6px;
   cursor: pointer;
-}
-
-.opinion-container {
-  margin-top: 96px;
-}
-
-.opinion-container table {
-padding: 32px;
-border-radius: 16px;
-background: #FFF;
-width: 100%;
-border-collapse: collapse;
-}
-
-th,td {
-  padding: 24px;
-  border: 1px solid rgba(14, 14, 14, 0.15);
-  border-right: none;
-}
-
-.theader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* Newsletter section */
@@ -454,4 +431,6 @@ th,td {
   border-radius: 0px 9.6px 9.6px 0px;
   background: #006a50;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 21.6px;
 }
