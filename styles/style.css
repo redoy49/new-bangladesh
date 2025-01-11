@@ -37,7 +37,7 @@
   font-weight: 700;
 }
 
-section-description {
+.section-description {
   color: #057005;
   line-height: 28.8px;
 }
@@ -48,7 +48,8 @@ body {
   background-color: #f1f1f3;
 }
 
-header {
+header,
+main {
   width: 1536px;
   margin: 0 auto;
 }
@@ -76,6 +77,7 @@ header {
   background: #c6e4d6;
   border-radius: 28.8px;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .hero-subtitle {
@@ -98,4 +100,81 @@ header {
 
 .hero-img {
   width: 568.84px;
+}
+
+.pillar-title {
+  color: #0e0e0e;
+  margin-bottom: 28.8px;
+}
+
+.pillar-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28.8px;
+}
+
+.pillar-card {
+  padding: 28.8px;
+  border-radius: 19.2px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+
+.pillar-card-title {
+  margin-top: 28.8px;
+  margin-bottom: 14.4px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 28.8px;
+  font-weight: 700;
+}
+
+.pillar-card-img {
+  width: 76.8px;
+}
+
+.pillar-card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 19.2px;
+  line-height: 28.8px; /* 150% */
+}
+
+.pillar-section {
+  margin-bottom: 80px;
+}
+
+.learn-more-btn {
+  font-size: 19.2px;
+  padding: 13.2px 24px;
+  border: none;
+}
+
+.btn-color-blue {
+  background: #5490f5;
+}
+
+.btn-color-green {
+  background: #09a15c;
+}
+
+.btn-color-yellow {
+  background: #ffc239;
+}
+
+.vision-card-blue {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card-green {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+}
+
+.vision-card-blue {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
 }
